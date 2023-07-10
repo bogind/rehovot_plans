@@ -61,6 +61,7 @@ function addTransportationLayers(){
         'type': 'symbol',
         'source': 'transportation_line1',
         'layout': {
+            // idea from here - https://github.com/mapbox/mapbox-gl-js/issues/6856
             'icon-image': 'road (tunnel)/tertiary shield/5',
             'icon-text-fit-padding': [10,10,10,10],
             'icon-text-fit': 'both',
