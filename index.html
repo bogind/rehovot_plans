@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://unpkg.com/maplibre-gl@3.1.0/dist/maplibre-gl.js'></script>
+    <link href='https://unpkg.com/maplibre-gl@3.1.0/dist/maplibre-gl.css' rel='stylesheet' />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" rel="stylesheet" type="text/css">
+
+    <title>מפת תוכניות רחובות</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <p class="info">
+            המידע על המפה נלקח מ<a href="https://www.rehovot.muni.il/1061/">"מפת העתיד"</a> של עיריית רחובות.<br>
+            חלק מהמיקומים תוקנו (כי כולנו יודעים שהשוק נמצא בין ישראל טלר ורחוב ביל"ו, ולא איפה שהוא סומן במפה של העירייה) אבל
+            רוב השגיאות עדיין קיימות. <br>
+            אם העירייה מעוניינת לתקן את המידע או חס וחלילה להפוך את שכבות המידע שלה לפתוחות, אפשר לדבר איתי.
+            <br>
+            <br>
+            * המרכאות סביב "מפת העתיד" מכוונות, זו לא באמת מפה, אלא תמונה עם ציורים עליה.
+        </p>
+        <hr>
+        <div class="button-container">
+            <ul class="button-list">
+                <li><button id="public-transport">🚌 תחבורה ציבורית</button></li>
+                <li><button id="hide-all">הסתר הכל</button></li>
+            </ul>
+            
+            
+        </div>
+        
+    </div>
+    <div class="container" id="map">
+        <script src="index.js"></script>
+    </div>
+</body>
+</html>
