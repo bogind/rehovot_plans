@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "conservation_renewal",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "label": "שער העיר", "popup_content": "", "sub_heading": "מעונות סטודנטים, מסחר ותעסוקה", "comments": null }, "geometry": { "type": "Point", "coordinates": [ 34.8038633, 31.90976745 ] } },
+{ "type": "Feature", "properties": { "label": "תכנית לב העיר", "popup_content": "פרויקט שצפוי לכלול מכורי סטודנטים, מסחר ומשרדים בכנסיה הצפונית לעיר", "sub_heading": "התחדשות עירונית לאורך רחוב הרצל", "comments": null }, "geometry": { "type": "Point", "coordinates": [ 34.81046216, 31.90019889 ] } },
+{ "type": "Feature", "properties": { "label": "שוק האוכל העירוני", "popup_content": "", "sub_heading": "ירקות, פירות ואוכל רחוב", "comments": "*הפופאפ שלו פתח שוב את הפופאפ של שער העיר, אין לי מושג אם זה מכוון או לא, אבל היה כתוב \"פרויקט שצפוי לכלול מכורי סטודנטים, מסחר ומשרדים בכנסיה הצפונית לעיר\" עם התמונה שהייתה בפופאפ של שער העיר" }, "geometry": { "type": "Point", "coordinates": [ 34.80969002, 31.89861603 ] } },
+{ "type": "Feature", "properties": { "label": "גן המייסדים", "popup_content": "הלב הירוק של מרכז העיר, עם מתקנים מגוונים וחדישים לכל הגילאים, ממשיך להתחדש ולהעסיק את המבקרים- בוגרים וילדים כאחר", "sub_heading": null, "comments": null }, "geometry": { "type": "Point", "coordinates": [ 34.81108364, 31.89366741 ] } },
+{ "type": "Feature", "properties": { "label": "מיזם מנהרת הזמן", "popup_content": "ברחובות מבנים היסטוריים רבים. בשנים האחרונות השלמנו את תהליך השימור בבית רבים בעיר כמו בית יוספזון- הבית הראשון, בית האסמים, ארמון קועטה, בית הכנסת הגדול , בית דונדיקוב, וגולת הכותרת- בית העם שהפך להיכל התרבות העירוני מן היפים והמיוחדים בישראל", "sub_heading": "שימור האתרים ההיסטוריים במושבה הותיקה", "comments": null }, "geometry": { "type": "Point", "coordinates": [ 34.81811764, 31.89965529 ] } }
+]
+}
